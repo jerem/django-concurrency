@@ -69,7 +69,7 @@ while passing into the context the object that is going to be saved (``target``)
 .. seealso:: :ref:`middleware`
 
 
-.. setting:: CONCURRECY_MANUAL_TRIGGERS
+.. setting:: CONCURRENCY_MANUAL_TRIGGERS
 
 MANUAL_TRIGGERS
 ---------------
