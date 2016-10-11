@@ -52,8 +52,8 @@ Release 1.0
 * new trigger code
 * new :method:`TriggerVersionField.check`.
 * new :attr:`TriggerVersionField.trigger_name`.
-* new :setting:`CONCURRECY_ENABLED` to fully disable concurrency
-* new :setting:`CONCURRECY_MANUAL_TRIGGERS` to disable triggers auto creation fixes :issue:`41` (thanks Naddiseo)
+* new :setting:`CONCURRENCY_ENABLED` to fully disable concurrency
+* new :setting:`CONCURRENCY_MANUAL_TRIGGERS` to disable triggers auto creation fixes :issue:`41` (thanks Naddiseo)
 
 
 Release 0.9
@@ -116,7 +116,7 @@ Release 0.4.0
 * start deprecation of ``concurrency.core.VersionChangedError``, ``concurrency.core.RecordModifiedError``,
     ``concurrency.core.InconsistencyError``,moved in ``concurrency.exceptions``
 * start deprecation of ``concurrency.core.apply_concurrency_check``, ``concurrency.core.concurrency_check`` moved in ``concurrency.api``
-* added :setting:`CONCURRECY_SANITY_CHECK` settings entry
+* added :setting:`CONCURRENCY_SANITY_CHECK` settings entry
 * signing of version number to avoid tampering (:ref:`concurrentform`)
 * added :ref:`concurrencytestmixin` to help test on concurrency managed models
 * changed way to add concurrency to existing models (:ref:`apply_concurrency_check`)
